@@ -5,4 +5,4 @@ doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 
 # puts doc.css(".headline-26OIBN").text.strip
 
-doc.css(".tout__label.heading.heading--level-4")
+courses =doc.css(".tout__label.heading.heading--level-4")
